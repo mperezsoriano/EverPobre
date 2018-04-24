@@ -8,14 +8,32 @@
 
 import UIKit
 
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+       
+        UINavigationBar.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().barTintColor = UIColor.headerColor
+        UINavigationBar.appearance().prefersLargeTitles = true
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        
+        window = UIWindow()
+        window?.makeKeyAndVisible()
+        
+        let notebooksController = CreateNoteViewController()
+        //CreateNoteViewController()
+        //ModifyDatePickerController()// NotebookTableViewController()
+        let navController = UINavigationController(rootViewController: notebooksController)
+        
+        window?.rootViewController = navController
+        
         return true
     }
 

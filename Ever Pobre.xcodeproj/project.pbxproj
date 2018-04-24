@@ -7,21 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		775FB46E208C734000ABB9E6 /* ModifyDatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775FB46D208C734000ABB9E6 /* ModifyDatePickerController.swift */; };
+		775FB470208C771300ABB9E6 /* CreateNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775FB46F208C771300ABB9E6 /* CreateNoteViewController.swift */; };
+		775FB474208C9AC300ABB9E6 /* UINavigationController+Apparence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775FB473208C9AC300ABB9E6 /* UINavigationController+Apparence.swift */; };
 		7784171A208BA28C004262EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77841719208BA28C004262EE /* AppDelegate.swift */; };
-		7784171C208BA28C004262EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784171B208BA28C004262EE /* ViewController.swift */; };
-		7784171F208BA28C004262EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7784171D208BA28C004262EE /* Main.storyboard */; };
+		7784171C208BA28C004262EE /* NotebookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784171B208BA28C004262EE /* NotebookTableViewController.swift */; };
 		77841721208BA28D004262EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77841720208BA28D004262EE /* Assets.xcassets */; };
 		77841724208BA28D004262EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77841722208BA28D004262EE /* LaunchScreen.storyboard */; };
+		7784172D208BAC8F004262EE /* ContantColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784172C208BAC8F004262EE /* ContantColor.swift */; };
+		7784172F208BB10A004262EE /* Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784172E208BB10A004262EE /* Notebook.swift */; };
+		77841731208BB44E004262EE /* CreateNotebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77841730208BB44E004262EE /* CreateNotebookViewController.swift */; };
+		77841734208BCF6B004262EE /* EverPobre.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77841732208BCF6B004262EE /* EverPobre.xcdatamodeld */; };
+		77841736208BE3BE004262EE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77841735208BE3BE004262EE /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7700EC35208F097B00BCAE05 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		775FB46D208C734000ABB9E6 /* ModifyDatePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyDatePickerController.swift; sourceTree = "<group>"; };
+		775FB46F208C771300ABB9E6 /* CreateNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteViewController.swift; sourceTree = "<group>"; };
+		775FB473208C9AC300ABB9E6 /* UINavigationController+Apparence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Apparence.swift"; sourceTree = "<group>"; };
 		77841716208BA28C004262EE /* Ever Pobre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ever Pobre.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77841719208BA28C004262EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7784171B208BA28C004262EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7784171E208BA28C004262EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7784171B208BA28C004262EE /* NotebookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookTableViewController.swift; sourceTree = "<group>"; };
 		77841720208BA28D004262EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77841723208BA28D004262EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77841725208BA28D004262EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7784172C208BAC8F004262EE /* ContantColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContantColor.swift; sourceTree = "<group>"; };
+		7784172E208BB10A004262EE /* Notebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notebook.swift; sourceTree = "<group>"; };
+		77841730208BB44E004262EE /* CreateNotebookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNotebookViewController.swift; sourceTree = "<group>"; };
+		77841733208BCF6B004262EE /* EverPobre.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EverPobre.xcdatamodel; sourceTree = "<group>"; };
+		77841735208BE3BE004262EE /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +69,30 @@
 		77841718208BA28C004262EE /* Ever Pobre */ = {
 			isa = PBXGroup;
 			children = (
+				7784172B208BAC71004262EE /* Constant */,
 				77841719208BA28C004262EE /* AppDelegate.swift */,
-				7784171B208BA28C004262EE /* ViewController.swift */,
-				7784171D208BA28C004262EE /* Main.storyboard */,
+				7784171B208BA28C004262EE /* NotebookTableViewController.swift */,
 				77841720208BA28D004262EE /* Assets.xcassets */,
 				77841722208BA28D004262EE /* LaunchScreen.storyboard */,
 				77841725208BA28D004262EE /* Info.plist */,
+				7784172E208BB10A004262EE /* Notebook.swift */,
+				77841730208BB44E004262EE /* CreateNotebookViewController.swift */,
+				77841732208BCF6B004262EE /* EverPobre.xcdatamodeld */,
+				77841735208BE3BE004262EE /* CoreDataManager.swift */,
+				775FB46D208C734000ABB9E6 /* ModifyDatePickerController.swift */,
+				775FB46F208C771300ABB9E6 /* CreateNoteViewController.swift */,
+				7700EC35208F097B00BCAE05 /* README.md */,
 			);
 			path = "Ever Pobre";
+			sourceTree = "<group>";
+		};
+		7784172B208BAC71004262EE /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				7784172C208BAC8F004262EE /* ContantColor.swift */,
+				775FB473208C9AC300ABB9E6 /* UINavigationController+Apparence.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +155,6 @@
 			files = (
 				77841724208BA28D004262EE /* LaunchScreen.storyboard in Resources */,
 				77841721208BA28D004262EE /* Assets.xcassets in Resources */,
-				7784171F208BA28C004262EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +165,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7784171C208BA28C004262EE /* ViewController.swift in Sources */,
+				7784172D208BAC8F004262EE /* ContantColor.swift in Sources */,
+				7784171C208BA28C004262EE /* NotebookTableViewController.swift in Sources */,
+				77841731208BB44E004262EE /* CreateNotebookViewController.swift in Sources */,
+				7784172F208BB10A004262EE /* Notebook.swift in Sources */,
+				775FB470208C771300ABB9E6 /* CreateNoteViewController.swift in Sources */,
+				77841734208BCF6B004262EE /* EverPobre.xcdatamodeld in Sources */,
+				77841736208BE3BE004262EE /* CoreDataManager.swift in Sources */,
+				775FB474208C9AC300ABB9E6 /* UINavigationController+Apparence.swift in Sources */,
+				775FB46E208C734000ABB9E6 /* ModifyDatePickerController.swift in Sources */,
 				7784171A208BA28C004262EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +181,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7784171D208BA28C004262EE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7784171E208BA28C004262EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		77841722208BA28D004262EE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -332,6 +362,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		77841732208BCF6B004262EE /* EverPobre.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				77841733208BCF6B004262EE /* EverPobre.xcdatamodel */,
+			);
+			currentVersion = 77841733208BCF6B004262EE /* EverPobre.xcdatamodel */;
+			path = EverPobre.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7784170E208BA28C004262EE /* Project object */;
 }
